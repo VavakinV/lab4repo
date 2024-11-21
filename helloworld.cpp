@@ -5,8 +5,8 @@ int main() {
     std::string name;
     
     std::cout << "Введите ваше имя: ";
-    std::cin >> name; // Получение имени пользователя
+    std::cin >> name; // Get user name
     
-    std::cout << "Hello world from " << name << std::endl; // Вывод в стандартный поток
+    std::cout << "Hello world from " << name << std::endl; // Put data in standart output stream
     return 0;
 }
